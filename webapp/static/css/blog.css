@@ -1,0 +1,19 @@
+.general{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to right,lightsalmon,lightcoral);
+    color: black;
+}
+a.one{
+    color: black;
+}
+
+.list{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to right, lightseagreen,lightgreen);
+}
+
+h1{
+    color: black;
+}

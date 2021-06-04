@@ -1,0 +1,8 @@
+{% extends 'webapp/base.html' %}
+{% block content %}
+        {% for ac in accounts %}
+            <abc>
+                <h1><a  href="{% url 'detail' pk=ac.pk %}"> {{ ac.name }} </a></h1>
+            </abc>
+        {% endfor %}
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'webapp/base.html' %}
+
+{%  block content %}
+    <active class="general">
+        <h2>user name: {{ user.name }}</h2>
+        <h3>email: {{ user.email }}</h3>
+        <h3>dob: {{ user.dob}}</h3>
+    </active>
+{% endblock %}
